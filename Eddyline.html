@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com css2?family=Comfortaa:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Eddyline Receipt Email</title>
+
+    <!-- CLASSES FOR MEDIA QUERIES -->
+    <style>
+      /* you only need one query and have the classes nested. Remove all "width100" classes. you only want to use a class at the main container for responsive ness and only add other classes if it's vital */
+      @media only screen and (max-width: 600px) {
+        .width100 {
+          width: 100%;
+        }
+
+        .main {
+          width: 100%;
+        }
+
+        .centering {
+          display: block !important;
+          margin: 0 auto !important;
+          padding: 0 0 0 0 !important;
+          text-align: center !important;
+        }
+      }
+    </style>
+
+    <!-- END MEDIA QUERIES -->
+  </head>
+  <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+  <body>
+    <!-- ENCAPSULATING TABLE OF WHOLE EMAIL -->
+
+    <table
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      align="center"
+      width="100%"
+      role="presentation"
+      class="width100"
+    >
+      <tr>
+        <td>
+          <!-- ENCAPSULATING TABLE WITH ALL DATA -->
+
+          <!-- !!!!!! -->
+          <!-- width is set at 600px, added "main" class so that under 600px it turns into 100% width. This makes the whole container responsive. -->
+
+          <table
+            class="main"
+            cellpadding="0"
+            cellspacing="0"
+            align="center"
+            width="600px"
+            role="presentation"
+          >
+            <tr>
+              <td>
+                <!-- HEADER IMAGE-->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <td align="center">
+                      <a href="">
+                        <img
+                          src="img/Eddyline-logo.png"
+                          alt="Eddyline Logo"
+                          title="Eddyline Logo"
+                          style="width: 250px"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- ABOVE ORDER SECTION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                >
+                  <tr>
+                    <td align="left">
+                      <p
+                        style="
+                          font-size: 47px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 550;
+                          color: #82a8af;
+                        "
+                      >
+                        Thank you for ordering!
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="100%"
+                  align="center"
+                  style="padding-bottom: 20px"
+                >
+                  <tr>
+                    <td align="left">
+                      <text
+                        style="
+                          font-size: 25px;
+                          font-family: arial;
+                          font-weight: 550;
+                          color: #737373;
+                        "
+                        >Your order number is
+                        <span style="color: #82a8af">OLO2</span></text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <hr
+                  style="
+                    width: 100%;
+                    background-color: #787878;
+                    height: 1.3px;
+                    border: none;
+                  "
+                />
+
+                <!-- ORDER SECTION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="100%"
+                  align="center"
+                  style="padding-top: 15px"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >1 X APP - NACHOS</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >$11.00</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td
+                      align="left"
+                      style="padding-left: 23px; line-height: 25px"
+                    >
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >ADD CHICKEN</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >$3.00</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td
+                      align="left"
+                      style="padding-left: 23px; line-height: 25px"
+                    >
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >ADD JALAPENOS</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >$1.00</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <hr style="width: 100%; color: #cccccc" />
+
+                <!-- SUBTOTAL SECTION -->
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="50%"
+                  align="right"
+                  style="padding: 10px 0 15px 0"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >SUBTOTAL</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >$15.00</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >TAX</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >$1.38</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <hr
+                  align="right"
+                  style="width: 50%; background-color: #cccccc"
+                />
+
+                <!--TOTAL SECTION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="50%"
+                  align="right"
+                  style="padding: 10px 0 20px 0"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 600;
+                          color: #737373;
+                        "
+                        >TOTAL</text
+                      >
+                    </td>
+                    <td align="right">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 600;
+                          color: #737373;
+                        "
+                        >$16.38</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <hr
+                  style="
+                    width: 100%;
+                    background-color: #787878;
+                    height: 1.3px;
+                    border: none;
+                  "
+                />
+
+                <!-- LOCATION INFORMATION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 10px 0 10px 0"
+                >
+                  <tr>
+                    <td align="left">
+                      <p
+                        style="
+                          font-size: 20px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #82a8af;
+                        "
+                      >
+                        Location Information
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="95%"
+                  align="center"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >926 S MAIN BUENA</text
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >BUENA VISTA, CO 81211</text
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >PHONE: 7199666000</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- CUSTOMER INFORMATION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 10px 0 10px 0"
+                >
+                  <tr>
+                    <td align="left">
+                      <p
+                        style="
+                          font-size: 20px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #82a8af;
+                        "
+                      >
+                        Customer Information
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="95%"
+                  align="center"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >Name:</text
+                      >
+                    </td>
+                    <td align="right" style="text-align: left">
+                      <text
+                        style="
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 550;
+                          color: #737373;
+                        "
+                        >Kevin Parker</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >Email:</text
+                      >
+                    </td>
+                    <td align="right" style="text-align: left">
+                      <text
+                        style="
+                          text-decoration: underline;
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 550;
+                          color: #2559c1;
+                        "
+                        >example@gmail.com</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >Phone:</text
+                      >
+                    </td>
+                    <td align="right" style="text-align: left">
+                      <text
+                        style="
+                          text-align: left;
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 550;
+                          color: #737373;
+                        "
+                        >1-800-555-1234</text
+                      >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >Payment Type:</text
+                      >
+                    </td>
+                    <td align="right" style="text-align: left">
+                      <text
+                        style="
+                          text-decoration: none;
+                          text-align: left;
+                          font-family: arial;
+                          font-size: 13px;
+                          font-weight: 550;
+                          color: #737373;
+                        "
+                        >Paid Online</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- PICKUP DESTINATION -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 10px 0 10px 0"
+                >
+                  <tr>
+                    <td align="left">
+                      <p
+                        style="
+                          font-size: 20px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #82a8af;
+                        "
+                      >
+                        Pickup Destination
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="95%"
+                  align="center"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >926 S MAIN BUENA</text
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >BUENA VISTA, CO 81211</text
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >PHONE: 7199666000</text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- PICKUP TIME -->
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 10px 0 10px 0"
+                >
+                  <tr>
+                    <td align="left">
+                      <p
+                        style="
+                          font-size: 20px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #82a8af;
+                        "
+                      >
+                        Pickup Time
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  width="95%"
+                  align="center"
+                  style="padding-bottom: 20px"
+                >
+                  <tr>
+                    <td align="left" style="line-height: 25px">
+                      <text
+                        style="
+                          text-decoration: none;
+                          font-family: arial;
+                          font-size: 13px;
+                          color: #989898;
+                        "
+                        >Please pickup your order at
+                        <span style="color: #82a8af; font-weight: 550"
+                          >12:50 PM on 07/01</span
+                        ></text
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- FOOTER -->
+
+                <hr
+                  style="
+                    width: 100%;
+                    background-color: #787878;
+                    height: 1.3px;
+                    border: none;
+                  "
+                />
+
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 10px 0 0 0"
+                >
+                  <tr>
+                    <td align="center">
+                      <p
+                        style="
+                          font-size: 15px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #787878;
+                        "
+                      >
+                        PLEASE DO NOT REPLY.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  align="center"
+                  width="100%"
+                  style="padding: 0 0 100px 0"
+                >
+                  <tr>
+                    <td align="center">
+                      <p
+                        style="
+                          font-size: 12px;
+                          line-height: 0px;
+                          font-family: arial;
+                          font-weight: 500;
+                          color: #989898;
+                        "
+                      >
+                        This is a system-generated message from an unmonitored
+                        mailbox.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
